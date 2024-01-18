@@ -1,12 +1,12 @@
 # Project Overview 🚀
 
-This project involves fine-tuning a pre-trained Hugging Face model using bitsandbytes and PEFT for efficient language modeling. The model is loaded, the dataset is preprocessed, and fine-tuning is performed.
+This project involves fine-tuning a pre-trained Hugging Face model(Llama 7b-hf chat model) using bitsandbytes and PEFT for efficient language modeling. The model is loaded, the dataset is preprocessed, and fine-tuning is performed.
 
-### Prerequisites
+## Prerequisites 🛠️
 
 Ensure you have the required dependencies installed.
 
-## Usage
+## Usage 🤖
 
 ### Loading the Model
 
@@ -20,7 +20,7 @@ Prepare the dataset for fine-tuning by importing functions from your module to h
 
 Import functions from your module for the fine-tuning process. This step adapts the pre-trained model to better suit the specific language modeling requirements.
 
-## Configuration
+## Configuration ⚙️
 
 ### BitsAndBytes Config
 
@@ -30,11 +30,7 @@ Configure the bitsandbytes settings by importing relevant functions from your mo
 
 Adjust the PEFT (Parameter Efficient Fine-Tuning) settings by importing functions from your module. Fine-tune the model's parameters to achieve optimal language modeling results.
 
-## Examples
-
-Provide additional examples or use cases for your code.
-
-## Contributing
+## Contributing 🤝
 
 We welcome contributions from the community to enhance and improve this project. If you're interested in getting involved, here's how you can contribute:
 
@@ -46,4 +42,4 @@ We welcome contributions from the community to enhance and improve this project.
 
 - **Documentation:** Improving documentation is always valuable. If you find areas that can be clarified or expanded, please contribute by updating the documentation.
 
-We appreciate your contributions to make this project even better!
+We appreciate your contributions to make this project even better! 🌟
